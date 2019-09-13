@@ -1,0 +1,22 @@
+{
+  "name": "automation_test",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "wdio test.config.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/node": "^12.7.5",
+    "@types/webdriverio": "^5.0.0",
+    "@wdio/cli": "^5.12.5",
+    "wdio-mocha-framework": "^0.6.4",
+    "wdio-selenium-standalone-service": "0.0.12",
+    "webdriverio": "^5.12.5"
+  },
+  "dependencies": {
+    "@wdio/local-runner": "^5.12.5"
+  }
+}
